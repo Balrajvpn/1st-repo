@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title> Hover,Transition,Shadow  </title>
+    <style>
+      .Subscribe{
+        color:white;
+        background-color: rgb(201, 16, 16);
+        border:none;
+        width:100px;
+        height: 36px;
+        font-size: 13px;
+        border-radius:5px;
+        cursor:pointer;
+        margin-right:8px;
+        transition:opacity .15s;
+    }
+      .Subscribe:hover{
+         opacity:.8;
+      }
+      .Subscribe:active{
+        opacity:.5;
+      }
+
+       .Join{
+          width:70px ;
+          height:36px;
+          border-radius:5px;
+          border-color:rgb(66, 114, 235);
+          color:rgb(66, 114, 235);
+          margin-right:8px;
+          transition:color .15s,background-color .15s;
+       }
+          .Join:hover{
+            color:white;
+            background-color:rgb(66, 114, 235);
+          }
+          .Join:active{
+            background-color: rgb(90, 130, 229);
+          }
+
+         .Tweet{
+            width:80px;
+            height:36px;
+            background-color:rgb(66, 114, 235);
+            color:white;
+            font-size:16px;
+            border:none;
+            border-radius:20px;
+            margin-right:8px;
+           transition:box-shadow .15s;
+        }
+        .Tweet:hover{
+            box-shadow:3px 3px 3px rgba(230, 237, 105,.15);
+        }
+        </style>
+</head>
+<body>
+ <button class="Subscribe">SUBSCRIBE</button>
+ <button class="Join">JOIN</button>
+ <button class="Tweet">Tweet</button>
+
+</body>
+</html>
