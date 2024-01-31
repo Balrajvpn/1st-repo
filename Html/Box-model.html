@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+       Box Model
+        </title>
+        <style>
+         .back{
+            padding:5px;
+
+         }
+         .next{
+            padding:5px;
+         }
+         .stretch{
+            padding:10px;
+            background-color: green;
+            color:white;
+            border:none;
+            border-radius: 10px;
+            transition:padding 1s;
+         }
+         .stretch:hover{
+            padding:20px;
+         }
+         .click{
+            padding:10px;
+            color:white;
+            background-color:rgb(32, 54, 198);
+            border:none;
+            border-radius:10px;
+            transition:box-shadow .5s;
+         }
+         .click:hover{
+            box-shadow: 3px 3px 3px white;
+         }
+            </style>
+    </head>
+    <body>
+      <button class="back">Back</button>
+          <a href="#" >1</a>
+          <a href="#" >2</a>
+          <a href="#" >3</a>
+          <a href="#" >4</a>
+      <button class="next">Next</button><br>
+
+      <button class="stretch">Stretch</button><br>
+
+      <button class="click">3D-Click</button><br>
+
+    </body>
+</html>
